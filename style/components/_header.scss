@@ -1,0 +1,20 @@
+@import "variables";
+
+header {
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 1rem;
+
+      .headerHeading {
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .headerIcon {
+        font-size: 2em;
+      }
+    }
+  }
+}
